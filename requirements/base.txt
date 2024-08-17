@@ -1,0 +1,19 @@
+-r docs.txt
+-r test.txt
+-r dev.txt
+
+asgiref==3.7.2
+Django==5.0
+djangorestframework==3.14.0
+psycopg==3.1.16
+psycopg-binary==3.1.16
+sqlparse==0.4.4
+typing_extensions==4.11.0
+django-cors-headers==4.3.1
+djangorestframework_simplejwt==5.3.1
+django-extensions==3.2.3
+django-filter==24.2
+cron-converter==1.2.1
+celery==5.4.0
+django-celery-beat==2.6.0
+redis==5.0.8

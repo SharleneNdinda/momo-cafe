@@ -1,0 +1,15 @@
+venv
+/venv
+env.sh
+
+__pycache__
+/__pycache__
+.python-version
+
+
+*/db.sqlite3
+
+# Documentation
+docs/_build/
+
+.coverage
