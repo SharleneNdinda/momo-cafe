@@ -50,7 +50,7 @@
 
 This is a passion project. It is meant to deliver the following:
 
-    ✅ Be able to display and manage an intuitive menu
+    ✅ Be able to display and manage an intuitive meal menu.
 
     ✅ Be able to track orders placed by customers using the application.
 
