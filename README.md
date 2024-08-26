@@ -8,7 +8,7 @@
 </div>
 
 <br />
-<h3 align="center">Momo Café</h3>
+<h3 align="center"> ☕ Momo Café ☕</h3>
 
   <p align="center">
     Order your favourite dish at Momo's Café
