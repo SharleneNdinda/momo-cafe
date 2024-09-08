@@ -1,7 +1,8 @@
 import uuid
-from django.db import models
 
-from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, AbstractUser
+from django.contrib.auth.models import (AbstractBaseUser, AbstractUser,
+                                        BaseUserManager)
+from django.db import models
 
 
 class CustomUserManager(BaseUserManager):
@@ -31,7 +32,7 @@ class CustomUserManager(BaseUserManager):
 class User(AbstractBaseUser):
     """Custom User model."""
 
-    guid = models.UUIDField(
+    id = models.UUIDField(
         primary_key=True,
         default=uuid.uuid4,
         editable=False,
